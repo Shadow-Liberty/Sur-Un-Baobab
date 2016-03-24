@@ -1,0 +1,18 @@
+#Sur un Baobab - Projet DW
+##Définition
+1. **Pour qui** ?
+Pour les participants de l’activité. Les organisateurs (leur vitrine). Les personne intéressées par les initiatives pédagogiques.
+2. **Que mettre en avant** ?
+Les détails de l’iniative, le collectif, ainsi que les différents projets déjà réalisé. Éventuellement les futurs projets du collectif.
+3. **Quel ton** ?
+Un ton jeune, dynamique et passionné, enjoué par la culture et les perspectives d’apprentissage.
+4. **Comment s’y prendre** ?
+Faire des recherches concernant la culture locale afin de s’encrer principalement dans leurs habitudes aussi bien en matière de communication mais aussi d’illustration, de design. Le site doit être proche du sujet, s’intégrer au projet, pas se trouver aux antipodes.
+
+##Stratégie
+Le site doit être simple et clair, straight to the point, avec une attention portée sur les illustrations, l’image dessinée ainsi que sur les vidéos des différents projet. Le site doit mettre en avant le côté artistique du projet et donc les médias, mais également informer le visiteur quant au collectif. Il faut donc allier visibilité des différents médias (illustrations, photos, vidéos,…) et textes fixes constants. L’on veut que l’utilisateur accède facilement à la culture que diffuse ce site tout en se souvenant qu’il s’agit aussi de la vitrine d’un collectif.
+
+###Menu Principal
+1. Accueil
+Slider avec dernières photos
+Section latest news avec les 3 dernières news et leur photos
