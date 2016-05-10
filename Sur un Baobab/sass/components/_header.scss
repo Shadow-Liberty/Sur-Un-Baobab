@@ -1,0 +1,45 @@
+body{
+    color: #4F393C;
+    background-color: #F7F7F7;
+}
+
+.header{
+    &__quote{
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+}
+
+blockquote strong{
+    font-weight: bold;
+    line-height: 1.47;
+}
+
+.navigation{
+    background-color: #E26056;
+    font-size: 24px;
+    &__link{
+        text-decoration: none;
+        color: #FAECE6;
+        transition: ease-in-out 0.15s;
+    }
+    &__link:hover{
+        color: white;
+    }
+    &__highlight{
+        font-weight: bold;
+    }
+}
+
+.mainContent{
+    font-size: 20px;
+    line-height: 35px;
+    &__introText{
+        color: #71C7D1;
+        font-weight: bold;
+    }
+}
+
+.footer{
+    background-color: #A1D6D0;
+}

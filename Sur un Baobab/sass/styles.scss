@@ -1,0 +1,22 @@
+// 1. Settings - Variables globales
+@import "settings/paths";
+@import "settings/colors";
+@import "settings/fonts";
+
+// 2. Tools - Mixins globaux, functions & outils
+
+
+// 3. Generic - Style de remise à zéro (reset, normalize…)
+@import "generic/meyer-reset";
+@import "generic/box-sizing";
+
+// 4. Base - Éléments bruts
+@import "base/root";
+
+// 5. Objects - Éléments de mise en forme non-cosmétique
+@import "objects/header";
+
+// 6. Components - Design des composants, morceaux d'UI
+@import "components/header";
+
+// 7. Trumps - Styles spécifiques à un élément
