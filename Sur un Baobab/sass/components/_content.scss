@@ -1,0 +1,54 @@
+.mainContent{
+    font-size: 20px;
+    line-height: 35px;
+    &__introText{
+        color: #71C7D1;
+        font-weight: bold;
+    }
+    &__videoCard{
+        background-color: #FAECE6;
+        color: #E26056;
+        &__desc{
+            &__title{
+                font-size: 24px;
+                font-weight: bold;
+                &__link{
+                    color: #E26056;
+                }
+            }
+        }
+    }
+    &__bigVideoCard{
+        background-color: #FAECE6;
+        color: #E26056;
+        &__video{
+
+        }
+        &__desc{
+
+            &__title{
+                font-size: 24px;
+                font-weight: bold;
+            }
+            &__tabs{
+
+                &__tab{
+
+                    &__content{
+                        background-color: #FAECE6;
+                    }
+                }
+                &__tab label{
+                    background-color: #FAECE6;
+                    text-transform: uppercase;
+                }
+                &__tab [type=radio]{
+                    display: none;
+                }
+                [type=radio]:checked ~ label {
+                  border-bottom: 3px solid #E26056;
+                }
+            }
+        }
+    }
+}

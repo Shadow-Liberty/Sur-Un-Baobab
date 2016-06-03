@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    height: 261px;
+    margin-top: 60px;
+    padding: 92px 200px 0;
+    
+    &__contact{
+        width: 269px;
+        float: right;
+        height: 70px;
+        line-height: 35px;
+        font-size: 20px;
+    }
+    &__social{
+        display: inline-block;
+        height: 37px;
+        margin-top: 20px;
+        &__icons{
+            display: line-block;
+            margin-right: 30px;
+            // float: left;
+            width: 37px;
+            vertical-align: middle;
+
+        }
+        &__icons::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    }
+}

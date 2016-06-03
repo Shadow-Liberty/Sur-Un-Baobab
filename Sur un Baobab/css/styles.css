@@ -66,6 +66,10 @@ body {
   .header__pageTitle {
     margin-left: -9999px;
     position: absolute; }
+  .header__banner {
+    background-image: url("../assets/img/Parallax-Picture.png");
+    background-size: cover;
+    height: 400px; }
   .header__wrapper {
     background-color: #F7F7F7;
     position: relative;
@@ -135,21 +139,6 @@ blockquote strong {
   content: "";
   top: 0; }
 
-.mainContent {
-  position: relative;
-  z-index: 99;
-  padding: 0 200px; }
-  .mainContent__introText {
-    padding-bottom: 20px; }
-  .mainContent__outro {
-    padding-top: 10px; }
-  .mainContent__paragraphs {
-    column-width: auto;
-    column-count: 2;
-    height: 450px; }
-    .mainContent__paragraphs__single {
-      padding-bottom: 20px; }
-
 .introVideo iframe {
   width: 100%;
   padding: 0 200px;
@@ -181,6 +170,84 @@ blockquote strong {
       display: block;
       clear: both; }
 
+.mainContent {
+  position: relative;
+  z-index: 99;
+  padding: 0 200px;
+  margin: 0 auto;
+  width: 100%; }
+  .mainContent__introText {
+    padding-bottom: 20px; }
+  .mainContent__outro {
+    padding-top: 10px; }
+  .mainContent__paragraphs {
+    column-width: 305px;
+    column-count: 2; }
+    .mainContent__paragraphs__single {
+      padding-bottom: 20px; }
+  .mainContent__videoCard:first-child {
+    margin-right: 9%; }
+  .mainContent__videoCard {
+    width: 45%;
+    display: inline-block;
+    margin-top: 80px;
+    position: relative; }
+    .mainContent__videoCard__video {
+      display: block;
+      width: 100%; }
+    .mainContent__videoCard__desc {
+      margin-top: 10px;
+      padding: 30px; }
+      .mainContent__videoCard__desc__title {
+        margin-bottom: 15px; }
+        .mainContent__videoCard__desc__title__link {
+          text-decoration: none; }
+    .mainContent__videoCard__share {
+      position: absolute;
+      top: 220px;
+      right: 36px; }
+  .mainContent__bigVideoCard {
+    width: 100%;
+    margin-top: 80px;
+    position: relative; }
+    .mainContent__bigVideoCard__video {
+      display: block;
+      width: 100%; }
+    .mainContent__bigVideoCard__desc {
+      margin-top: 10px;
+      padding: 30px; }
+      .mainContent__bigVideoCard__desc__title {
+        margin-bottom: 15px; }
+      .mainContent__bigVideoCard__desc__text {
+        margin-bottom: 40px;
+        width: 50%; }
+      .mainContent__bigVideoCard__desc__tabs {
+        position: relative;
+        min-height: 300px;
+        /* "This part sucks" - CCS-Tricks */
+        clear: both;
+        margin: 25px 0; }
+        .mainContent__bigVideoCard__desc__tabs__tab {
+          float: left; }
+          .mainContent__bigVideoCard__desc__tabs__tab__content {
+            position: absolute;
+            top: 70px;
+            left: 0;
+            right: 0;
+            bottom: 0; }
+        .mainContent__bigVideoCard__desc__tabs__tab label {
+          padding: 10px;
+          margin-right: 30px;
+          margin-left: -1px;
+          position: relative;
+          left: 1px; }
+        .mainContent__bigVideoCard__desc__tabs__tab [type=radio] {
+          display: none; }
+        .mainContent__bigVideoCard__desc__tabs [type=radio]:checked ~ label {
+          z-index: 2; }
+        .mainContent__bigVideoCard__desc__tabs [type=radio]:checked ~ label ~ .mainContent__bigVideoCard__desc__tabs__tab__content {
+          z-index: 1; }
+
 body {
   color: #4F393C;
   background-color: #F7F7F7; }
@@ -205,14 +272,37 @@ blockquote strong {
   .navigation__highlight {
     font-weight: bold; }
 
+.footer {
+  background-color: #A1D6D0; }
+
 .mainContent {
   font-size: 20px;
   line-height: 35px; }
   .mainContent__introText {
     color: #71C7D1;
     font-weight: bold; }
-
-.footer {
-  background-color: #A1D6D0; }
+  .mainContent__videoCard {
+    background-color: #FAECE6;
+    color: #E26056; }
+    .mainContent__videoCard__desc__title {
+      font-size: 24px;
+      font-weight: bold; }
+      .mainContent__videoCard__desc__title__link {
+        color: #E26056; }
+  .mainContent__bigVideoCard {
+    background-color: #FAECE6;
+    color: #E26056; }
+    .mainContent__bigVideoCard__desc__title {
+      font-size: 24px;
+      font-weight: bold; }
+    .mainContent__bigVideoCard__desc__tabs__tab__content {
+      background-color: #FAECE6; }
+    .mainContent__bigVideoCard__desc__tabs__tab label {
+      background-color: #FAECE6;
+      text-transform: uppercase; }
+    .mainContent__bigVideoCard__desc__tabs__tab [type=radio] {
+      display: none; }
+    .mainContent__bigVideoCard__desc__tabs [type=radio]:checked ~ label {
+      border-bottom: 3px solid #E26056; }
 
 /*# sourceMappingURL=styles.css.map */

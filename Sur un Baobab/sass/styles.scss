@@ -15,8 +15,12 @@
 
 // 5. Objects - Éléments de mise en forme non-cosmétique
 @import "objects/header";
+@import "objects/footer";
+@import "objects/content";
 
 // 6. Components - Design des composants, morceaux d'UI
 @import "components/header";
+@import "components/footer";
+@import "components/content";
 
 // 7. Trumps - Styles spécifiques à un élément

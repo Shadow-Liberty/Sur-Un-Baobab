@@ -1,0 +1,102 @@
+.mainContent{
+    position: relative;
+    z-index: 99;
+    padding: 0 200px;
+    margin: 0 auto;
+    width: 100%;
+    &__introText{
+        padding-bottom: 20px
+    }
+    &__outro{
+        padding-top: 10px;
+    }
+    &__paragraphs{
+        column-width: 305px;
+        column-count: 2;
+        // height: 450px;
+        &__single{
+            padding-bottom: 20px;
+        }
+    }
+    &__videoCard:first-child{
+        margin-right: 9%;
+    }
+    &__videoCard{
+        width: 45%;
+        display: inline-block;
+        margin-top: 80px;
+        position: relative;
+        &__video{
+            display: block;
+            width: 100%;
+        }
+        &__desc{
+            margin-top: 10px;
+            padding: 30px;
+            &__title{
+                margin-bottom: 15px;
+                &__link{
+                    text-decoration: none;
+                }
+            }
+        }
+        &__share{
+            position: absolute;
+            top: 220px;
+            right: 36px;
+        }
+    }
+    &__bigVideoCard{
+        width: 100%;
+        margin-top: 80px;
+        position: relative;
+        &__video{
+            display: block;
+            width: 100%;
+        }
+        &__desc{
+            margin-top: 10px;
+            padding: 30px;
+            &__title{
+                margin-bottom: 15px;
+            }
+            &__text{
+                margin-bottom: 40px;
+                width: 50%;
+            }
+            &__tabs{
+                position: relative;
+                min-height: 300px; /* "This part sucks" - CCS-Tricks */
+                clear: both;
+                margin: 25px 0;
+                &__tab{
+                    float: left;
+                    &__content{
+                        position: absolute;
+                        top: 70px;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        // padding: 20px;
+                    }
+                }
+                &__tab label{
+                    padding: 10px;
+                    margin-right: 30px;
+                    margin-left: -1px;
+                    position: relative;
+                    left: 1px;
+                }
+                &__tab [type=radio]{
+                    display: none;
+                }
+                [type=radio]:checked ~ label {
+                  z-index: 2;
+                }
+                [type=radio]:checked ~ label ~ .mainContent__bigVideoCard__desc__tabs__tab__content {
+                  z-index: 1;
+                }
+            }
+        }
+    }
+}

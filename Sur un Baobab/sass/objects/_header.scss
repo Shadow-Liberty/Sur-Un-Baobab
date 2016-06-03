@@ -11,6 +11,12 @@ body{
         margin-left: -9999px;
         position: absolute;
     }
+    &__banner{
+        background-image: url("../assets/img/Parallax-Picture.png");
+        background-size: cover;
+        height: 400px;
+
+    }
     &__wrapper{
         background-color: #F7F7F7;
         position: relative;
@@ -125,62 +131,9 @@ blockquote strong{
     top: 0;
 }
 
-.mainContent{
-    position: relative;
-    z-index: 99;
-    padding: 0 200px;
-    &__introText{
-        padding-bottom: 20px
-    }
-    &__outro{
-        padding-top: 10px;
-    }
-    &__paragraphs{
-        column-width: auto;
-        column-count: 2;
-        height: 450px;
-        &__single{
-            padding-bottom: 20px;
-        }
-    }
-}
-
 .introVideo iframe{
     width: 100%;
     padding: 0 200px;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.footer{
-    width: 100%;
-    height: 261px;
-    margin-top: 60px;
-    padding: 92px 200px 0;
-
-    &__contact{
-        width: 269px;
-        float: right;
-        height: 70px;
-        line-height: 35px;
-        font-size: 20px;
-    }
-    &__social{
-        display: inline-block;
-        height: 37px;
-        margin-top: 20px;
-        &__icons{
-            display: line-block;
-            margin-right: 30px;
-            // float: left;
-            width: 37px;
-            vertical-align: middle;
-
-        }
-        &__icons::after{
-            content: "";
-            display: block;
-            clear: both;
-        }
-    }
 }
